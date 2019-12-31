@@ -1,5 +1,5 @@
 require("dotenv").config();
-const checkForSession = require("./middleswares/checkForSession");
+const { checkForSession } = require("./middleswares/checkForSession");
 const express = require("express");
 const session = require("express-session");
 const swagController = require("./controllers/swagController");
